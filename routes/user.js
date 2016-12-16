@@ -3,7 +3,6 @@ var router = express.Router();
 const User = require('../db/user');
 const Chore = require('../db/chore');
 
-
 /* GET users listing. */
 router.get('/:id', function(req, res, next) {
   if(!isNaN(req.params.id)){
