@@ -4,7 +4,7 @@ module.exports = {
 
   development: {
     client: 'pg',
-    connection:'postgres://localhost/chores-crud'
+    connection: process.env.DEV_DATABASE_URL
   },
   production: {
     client: 'pg',

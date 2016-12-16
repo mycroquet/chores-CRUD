@@ -5,3 +5,4 @@ module.exports = {
     return knex('user').where('id', id).first();
   }
 }
+ 
